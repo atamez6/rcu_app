@@ -21,7 +21,7 @@ class RemoteControlApp:
             {"text": "Vol -", "command": "input keyevent 25"},
             {"text": "Back", "command": "input keyevent 4"},
             {"text": "Home", "command": "input keyevent 3"},
-            {"text": "Menu", "command": "input keyevent 82"},
+            {"text": "Menu", "command": "am start -a android.settings.SETTINGS"},
             {"text": "Arriba", "command": "input keyevent 19"},
             {"text": "Abajo", "command": "input keyevent 20"},
             {"text": "Izquierda", "command": "input keyevent 21"},
